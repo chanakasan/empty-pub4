@@ -20,3 +20,5 @@
 # Ignore Byebug command history file.
 .byebug_history
 /node_modules
+/app/assets/javascripts/compiled/*
+!/app/assets/javascripts/compiled/.keep
