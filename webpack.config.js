@@ -26,6 +26,7 @@ config.plugins = [
 	// example of exposing Lodash to every module
 	new webpack.ProvidePlugin({
 		_: 'lodash',
+		React: 'react',
 	}),
 ];
 
